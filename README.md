@@ -1,40 +1,56 @@
-< 조별 풀스택 프로젝트 CRUD >
+<h1>조별 풀스택 프로젝트 CRUD</h1>
 
-#1. 개요
-HTML, CSS, JS을 활용해 BBQ 사이트를 클론코딩하고, WEB JAVA를 통해 CRUD 기능을 구현하였습니다.
-C: 회원가입, 게시글 작성, 온라인 주문
-R: 서브페이지 및 콘텐츠페이지 메뉴 불러오기
-U: 
-D: 
+<h2>#1. 개요</h2>
+> HTML, CSS, JS을 활용해 BBQ 사이트를 클론코딩하고, WEB JAVA를 통해 CRUD 기능을 구현하였습니다.
 
-#2. DB 구성
+> C - 회원가입, 문의글 작성, 온라인 주문
+> R - 서브페이지 및 콘텐츠페이지 메뉴 조회, 회원정보 조회, 문의글 조회, 주문내역 조회, 회원목록 불러오기
+> U - 회원정보 수정, 문의글 수정, 포인트 누적
+> D - 회원탈퇴, 문의글 삭제
 
-#3. 구성
+<h2>#2. DB 구성</h2>
+> 
 
-#4. Work-Flow
+<h2>#3. 구성</h2>
+> # Project 명
+>   : Floatleft_Project_BBQ
+>    => BBQ 사이트 구현 실습
+>    => Model1 방식
+>    
+> # Project DB접속방식
+>   : JDBC 이용
+>   
+> ## Project Hieracital
+> a. 자바패키지
+>    biz > board + common + user + menu + order
+> b. webapp 폴더
+>    css + images + include + js + login_join + order
 
-#5. 프로젝트 시연
 
-  A. 회원가입 및 온라인 주문
+<h2>#4. Work-Flow</h2>
+
+<h2>#5. 프로젝트 시연</h2>
+
+  <h3>A. 회원가입 및 온라인 주문</h3>
 
   https://github.com/WOONG-riginal/test/assets/136036366/cf6fe9df-5a67-4847-a426-b7dfe39a67a3
 
-  B. 게시판 작성 및 회원정보 수정
+  <h3>B. 게시판 작성 및 회원정보 수정</h3>
 
   https://github.com/WOONG-riginal/test/assets/136036366/5aed3d6d-f2ee-49d1-8f9a-a098f0604397
 
-  C. 게시판 답변 확인하기
+  <h3>C. 게시판 답변 확인하기</h3>
 
   https://github.com/WOONG-riginal/test/assets/136036366/dc451961-00cc-4e32-9c18-eefb2c5997bc
 
-  D. 서브 및 콘텐츠 메뉴
+  <h3>D. 서브 및 콘텐츠 메뉴</h3>
 
   https://github.com/WOONG-riginal/test/assets/136036366/9bd22c4c-36c9-4cce-a33f-7959e88d4b8d
 
-  E. 매장찾기
+  <h3>E. 매장찾기</h3>
 
   https://github.com/WOONG-riginal/test/assets/136036366/ccb12654-5b37-4442-b5ef-ae9839fee811
 
-  F. 관리자 로그인 및 전용 페이지
+  <h3>F. 관리자 로그인 및 전용 페이지</h3>
 
   https://github.com/WOONG-riginal/test/assets/136036366/cfe06943-ca0b-4af0-bc79-21fd24683f94
