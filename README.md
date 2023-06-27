@@ -35,7 +35,12 @@
 
 [Work-Flow.txt](https://github.com/WOONG-riginal/test/files/11876975/Work-Flow.txt)
 
-<h2>#5. 프로젝트 시연</h2>
+
+<h2>#5. 소스코드</h2>
+
+https://github.com/WOONG-riginal/back-end/tree/a58fcd8a96b8c7d3af1bb861f71f6af38daf2baf/BBQ
+
+<h2>#6. 프로젝트 시연</h2>
 
   <h3>A. 회원가입 및 온라인 주문</h3>
 
