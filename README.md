@@ -13,16 +13,16 @@
 
 <h2>#3. 구성</h2>
 > # Project 명<br>
->   : Floatleft_Project_BBQ<br>
->    => BBQ 사이트 구현 실습<br>
->    => Model1 방식<br><br>
+> : Floatleft_Project_BBQ<br>
+> => BBQ 사이트 구현 실습<br>
+> => Model1 방식<br><br>
 > # Project DB접속방식<br>
->   : JDBC 이용<br><br>
+> : JDBC 이용<br><br>
 > ## Project Hieracital<br>
 > a. 자바패키지<br>
->    biz > board + common + user + menu + order<br>
+> biz > board + common + user + menu + order<br>
 > b. webapp 폴더<br>
->    css + images + include + js + login_join + order<br><br>
+> css + images + include + js + login_join + order<br><br>
 
 
 <h2>#4. Work-Flow</h2>
