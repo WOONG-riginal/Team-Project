@@ -6,25 +6,23 @@
 > C - 회원가입, 문의글 작성, 온라인 주문<br>
 > R - 서브페이지 및 콘텐츠페이지 메뉴 조회, 회원정보 조회, 문의글 조회, 주문내역 조회, 회원목록 불러오기<br>
 > U - 회원정보 수정, 문의글 수정, 포인트 누적<br>
-> D - 회원탈퇴, 문의글 삭제<br>
+> D - 회원탈퇴, 문의글 삭제<br><br>
 
 <h2>#2. DB 구성</h2>
 > 
 
 <h2>#3. 구성</h2>
-> # Project 명
->   : Floatleft_Project_BBQ
->    => BBQ 사이트 구현 실습
->    => Model1 방식
->    
-> # Project DB접속방식
->   : JDBC 이용
->   
-> ## Project Hieracital
-> a. 자바패키지
->    biz > board + common + user + menu + order
-> b. webapp 폴더
->    css + images + include + js + login_join + order
+> # Project 명<br>
+>   : Floatleft_Project_BBQ<br>
+>    => BBQ 사이트 구현 실습<br>
+>    => Model1 방식<br><br>
+> # Project DB접속방식<br>
+>   : JDBC 이용<br><br>
+> ## Project Hieracital<br>
+> a. 자바패키지<br>
+>    biz > board + common + user + menu + order<br>
+> b. webapp 폴더<br>
+>    css + images + include + js + login_join + order<br><br>
 
 
 <h2>#4. Work-Flow</h2>
