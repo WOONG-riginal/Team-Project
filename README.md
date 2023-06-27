@@ -9,6 +9,7 @@
 > D - 회원탈퇴, 문의글 삭제
 <br><br>
 <h2>#2. DB 구성</h2>
+[DB구성.txt](https://github.com/WOONG-riginal/test/files/11876976/DB.txt)
 
 <h2>#3. 구성</h2>
 
@@ -26,6 +27,7 @@
 <br><br>
 
 <h2>#4. Work-Flow</h2>
+[Work-Flow.txt](https://github.com/WOONG-riginal/test/files/11876975/Work-Flow.txt)
 
 <h2>#5. 프로젝트 시연</h2>
 
