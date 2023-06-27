@@ -22,8 +22,8 @@
 > a. 자바패키지<br>
 > biz > board + common + user + menu + order<br>
 > b. webapp 폴더<br>
-> css + images + include + js + login_join + order<br><br>
-
+> css + images + include + js + login_join + order
+<br><br>
 
 <h2>#4. Work-Flow</h2>
 
