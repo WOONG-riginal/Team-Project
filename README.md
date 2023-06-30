@@ -152,14 +152,57 @@ https://github.com/WOONG-riginal/back-end/tree/a58fcd8a96b8c7d3af1bb861f71f6af38
   2. 선택사항은 입력하지 않아도 회원가입 가능
 
 
-  <h3>D. 서브 및 콘텐츠 메뉴</h3>
+  <h3>D. 로그인 로그아웃</h3>
 
-  https://github.com/WOONG-riginal/test/assets/136036366/9bd22c4c-36c9-4cce-a33f-7959e88d4b8d
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/01c0d3ed-70ec-44a3-a6cf-765114430a9c
+  
+  
+  <h3>E. 주문하기</h3>
 
-  <h3>E. 매장찾기</h3>
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/c59b3c4a-5126-473d-a78a-dad41df154a6
 
-  https://github.com/WOONG-riginal/test/assets/136036366/ccb12654-5b37-4442-b5ef-ae9839fee811
+  1. 먼저 주문매장 필수로 선택, 회원가입 시 등록한 추천매장이 있다면 사용 가능, 다른 매장 선택도 가능
+  2. DB에 입력된 메뉴정보를 통해 메뉴목록 제공
+  3. 배달/포장 선택
 
-  <h3>F. 관리자 로그인 및 전용 페이지</h3>
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/7f7f364e-57c5-4fff-a8b8-e9d2d51b9298
 
-  https://github.com/WOONG-riginal/test/assets/136036366/cfe06943-ca0b-4af0-bc79-21fd24683f94
+  1. 배달 주문시 배달지 입력 필요
+  2. 포장주문에는 주소지 입력이 필요하지 않음
+  3. 주문내역은 마이페이지에서 확인
+  
+
+  <h3>F. 문의글 작성</h3>
+
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/e0228352-e1e3-4141-8596-b831c592a5b1
+
+  1. 해당 작성글 내용 및 답변여부는 마이페이지에서 확인 가능
+
+
+  <h3>G. 마이페이지</h3>
+
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/31100a5b-e607-4157-af44-05a46723156f
+
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/11cf43d1-2046-4faf-b946-df32c5eda382
+
+  1. 회원가입 시 기본 포인트 1000P 제공, 이후 주문금액의 10% 적립
+  2. 개인정보 조회 및 변경 : 먼저 비밀번호를 확인하고 페이지 연결
+  3. 입력한 정보 변경 가능 (단, 이름과 아이디는 변경 불가)
+  4. 입력하지 않은 선택정보 입력 가능, 주소지의 경우 변경 및 삭제 가능
+  5. 비밀번호 변경은 추가적인 페이지에서 진행
+  6. 로그인 된 회원의 주문내역 및 문의내역 확인 가능
+  7. 문의글에 대한 답변만 조회 가능
+  
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/d25b48ca-66ac-4e21-80e8-0819b160b030
+
+  1. 답변 이전의 문의글에 대해서만 수정 및 삭제 가능
+
+  
+<h3>H. 관리자페이지</h3>
+
+https://github.com/WOONG-riginal/Team-Project/assets/136036366/1e203c31-fb02-47aa-ad74-478e94a3c42e
+
+1. 관리자로 로그인 시 관리자페이지 사용 가능
+2. 회원목록 확인, 가입 시 입력하지 않은 항목은 미기입으로 표기
+3. 모든 주문내역 확인, 주문자 ID를 같이 표기해 동명이인의 경우 구분
+4. 모든 문의내역 확인 및 답변 등록
