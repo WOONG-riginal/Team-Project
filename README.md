@@ -12,32 +12,15 @@
 
 <h2>#2. DB 구성</h2>
 
-<button>열기</button>
-<script>
-  $('button').click(function(){
-    $(this).next().toggle();
-  })
-</script>
-<p>
-  /*
-   프로젝트명 : Floatleft_Project_BBQ
-   작업명 : BBQ 웹자바 구현
-   메뉴 테이블명 : bbq_menu
-   고객센터 테이블명 : bbq_board
-   회원 테이블명 : bbq_member
-   주문 테이블명 : bbq_order
-*/
+> 프로젝트명 : Floatleft_Project_BBQ<br>
+> 작업명 : BBQ 웹자바 구현<br>
+> 메뉴 테이블명 : bbq_menu<br>
+> 고객센터 테이블명 : bbq_board<br>
+> 회원 테이블명 : bbq_member<br>
+> 주문 테이블명 : bbq_order<br>
+<br>
 
-
--- 기존 테이블 있는지 확인 후 존재하면 삭제
-drop table bbq_menu;
-drop table bbq_board;
-drop table bbq_member;
-drop table bbq_order;
-
--- 메뉴 테이블명 : bbq_menu 테이블
-drop table bbq_menu;
-
+-- 메뉴 테이블명 : bbq_menu<br>
 create table bbq_menu(
     menuno number primary key,
     menu varchar2(100) not null,
@@ -52,13 +35,9 @@ create table bbq_menu(
     nutri4 number,
     nutri5 number,
     origin varchar2(100)
-);
+);<br>
 
-
-
---=========================== 고객센터 테이블 ===========================
--- 고객센터 테이블
-drop table bbq_board;
+-- 고객센터 테이블 : bbq_board<br>
 create table bbq_board(
     num number primary key,
     store varchar2(50) not null,
@@ -73,60 +52,14 @@ create table bbq_board(
     re_level number,
     readcount number,
     writerid varchar2(50) not null
-);
-
-
-select * from bbq_board;
-
-drop sequence bbq_board_seq;
+);<br>
 -- 시퀀스 만들기
 create sequence bbq_board_seq
 minvalue 1
 maxvalue 9999
 increment by 1;
 
-commit;
-
---고객의 소리 쓰기
-insert into bbq_board values(bbq_board_seq.nextval,'BBQ노원구','글제목',sysdate,'주문거부','송승현','010-1111-1111','글내용',1,0,0,0,'ezen');
-commit;
-
-select max(ref) from bbq_board;
-
---계층형 게시판 쿼리문
-select * from bbq_board order by ref desc, re_step asc;
-
---글가져오기 로직
-select * from bbq_board where num=1;
-
---글상세보기
-select  * from bbq_board where num=1 ;
-
---비밀번호 비지니스 로직
-select password from bbq_board where num=1;
-
---글수정 로직??
-UPDATE bbq_board SET content='점심시간아와라' WHERE num=1;
-
---글 삭제 로직
-DELETE FROM bbq_board WHERE num=1;
-
--- 관리자페이지 문의내역 조회 로직
-select * from bbq_board order by ref desc, re_level asc, re_step asc;
-
--- 관리자페이지 답변 등록 로직
-update bbq_board set re_level=re_level+1 where ref=? and re_level>?;
-insert into bbq_board values(bbq_board_seq.nextval,?,'[답변] '||?,sysdate,?,?,?,?,?,?,?,0);
-
--- 관리자페이지 답변여부 확인 로직
-select count(*) from bbq_board where ref=?;
-
--- 답변글 조회 로직
-select * from bbq_board where ref=? and re_step>1;
-
-
---=========================== 회원 테이블 ===========================
-drop table bbq_member;
+-- 회원 테이블 : bbq_member<br>
 create table bbq_member (
     id  varchar2(20) primary key,
     password varchar2(50) not null,
@@ -141,42 +74,9 @@ create table bbq_member (
     mstore varchar2(200),
     gender varchar2(20),
     birth varchar2(20)
-);
-insert into bbq_member(id,password,name,tel,email,role) 
-values ('ezen','1111','김이젠','01023456789','ezen@ezen.com','A');
+);<br>
 
-commit;
-update bbq_member set point=(point+19000) where id='ezen';
-
-select * from bbq_member;
-
--- 로그인 확인 쿼리문
-select count(*) from bbq_member where id='ezen' and password=1111;
-
--- id 중복 확인 쿼리문
-select count(*) from bbq_member where id='ezen';
-
--- 비밀번호 확인 쿼리문
-select password from bbq_member where id='ezen';
-
--- 마이페이지 쿼리문
-select * from bbq_member where id='ezen';
-
--- 비밀번호 변경 쿼리문
-update bbq_member set password='2222' where id='ezen';
-
--- 회원정보 변경 쿼리문
-update bbq_member set birth='19920528', tel='01012341234', email='ez@eez.com', address='다른주소' where id='ezen';
-
--- 회원탈퇴 쿼리문
-delete from bbq_member where id='ezen';
-
-
-commit;
-
-------------------------------------------------------------------------------
-
-drop table bbq_order;
+-- 주문 테이블 : bbq_order<br>
 create table bbq_order (
     ordernum  number primary key,
     ordername varchar2(50) not null,
@@ -189,16 +89,7 @@ create table bbq_order (
     delivery number not null,
     orderaddress varchar2(200) not null,
     orderid varchar2(50) not null
-);
-select * from bbq_order;
-
-select *
-from bbq_member mem, bbq_board brd
-where mem.name=brd.writer
-and mem.id='asdf12' and brd.writer='김이름';
-
-select * from bbq_member mem, bbq_order ord where mem.id=ord.orderid and ord.orderid='asdf1234';
-</p>
+);<br><br>
 
 
 <h2>#3. 구성</h2>
