@@ -21,74 +21,71 @@
 <br>
 
 -- 메뉴 테이블명 : bbq_menu<br>
-create table bbq_menu(
-    menuno number primary key,
-    menu varchar2(100) not null,
-    img varchar2(200) not null,
-    price varchar2(50) not null,
-    category varchar2(100) not null,
-    info varchar2(2000) not null,
-    allergy varchar2(200),
-    nutri1 number,
-    nutri2 number,
-    nutri3 number,
-    nutri4 number,
-    nutri5 number,
-    origin varchar2(100)
-);<br>
+create table bbq_menu(<br>
+    menuno number primary key,<br>
+    menu varchar2(100) not null,<br>
+    img varchar2(200) not null,<br>
+    price varchar2(50) not null,<br>
+    category varchar2(100) not null,<br>
+    info varchar2(2000) not null,<br>
+    allergy varchar2(200),<br>
+    nutri1 number,<br>
+    nutri2 number,<br>
+    nutri3 number,<br>
+    nutri4 number,<br>
+    nutri5 number,<br>
+    origin varchar2(100)<br>
+);<br><br>
 
 -- 고객센터 테이블 : bbq_board<br>
-create table bbq_board(
-    num number primary key,
-    store varchar2(50) not null,
-    title varchar2(100) not null,
-    reg_date varchar2(30) not null,
-    type varchar2(100) not null,
-    writer varchar2(50) not null,
-    contact varchar2(50) not null,
-    content varchar2(100) not null,
-    ref number,
-    re_step number,
-    re_level number,
-    readcount number,
-    writerid varchar2(50) not null
+create table bbq_board(<br>
+    num number primary key,<br>
+    store varchar2(50) not null,<br>
+    title varchar2(100) not null,<br>
+    reg_date varchar2(30) not null,<br>
+    type varchar2(100) not null,<br>
+    writer varchar2(50) not null,<br>
+    contact varchar2(50) not null,<br>
+    content varchar2(100) not null,<br>
+    ref number,<br>
+    re_step number,<br>
+    re_level number,<br>
+    readcount number,<br>
+    writerid varchar2(50) not null<br>
 );<br>
--- 시퀀스 만들기
-create sequence bbq_board_seq
-minvalue 1
-maxvalue 9999
-increment by 1;
+-- 시퀀스 만들기<br>
+create sequence bbq_board_seq minvalue 1 maxvalue 9999 increment by 1;<br><br>
 
 -- 회원 테이블 : bbq_member<br>
-create table bbq_member (
-    id  varchar2(20) primary key,
-    password varchar2(50) not null,
-    name varchar2(50) not null,
-    tel varchar2(50) not null,
-    email varchar2(100) not null,
-    point number default 1000,
-    coupon number default 1,
-    card number default 1,
-    role varchar2(10) default 'B',
-    address varchar2(200),
-    mstore varchar2(200),
-    gender varchar2(20),
-    birth varchar2(20)
-);<br>
+create table bbq_member (<br>
+    id  varchar2(20) primary key,<br>
+    password varchar2(50) not null,<br>
+    name varchar2(50) not null,<br>
+    tel varchar2(50) not null,<br>
+    email varchar2(100) not null,<br>
+    point number default 1000,<br>
+    coupon number default 1,<br>
+    card number default 1,<br>
+    role varchar2(10) default 'B',<br>
+    address varchar2(200),<br>
+    mstore varchar2(200),<br>
+    gender varchar2(20),<br>
+    birth varchar2(20)<br>
+);<br><br>
 
 -- 주문 테이블 : bbq_order<br>
-create table bbq_order (
-    ordernum  number primary key,
-    ordername varchar2(50) not null,
-    ordercontact varchar2(50) not null,
-    orderstore varchar2(200) not null,
-    orderdate date not null,
-    ordermenu varchar2(200) not null,
-    orderprice number not null,
-    qty number not null,
-    delivery number not null,
-    orderaddress varchar2(200) not null,
-    orderid varchar2(50) not null
+create table bbq_order (<br>
+    ordernum  number primary key,<br>
+    ordername varchar2(50) not null,<br>
+    ordercontact varchar2(50) not null,<br>
+    orderstore varchar2(200) not null,<br>
+    orderdate date not null,<br>
+    ordermenu varchar2(200) not null,<br>
+    orderprice number not null,<br>
+    qty number not null,<br>
+    delivery number not null,<br>
+    orderaddress varchar2(200) not null,<br>
+    orderid varchar2(50) not null<br>
 );<br><br>
 
 
