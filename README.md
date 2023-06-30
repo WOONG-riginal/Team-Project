@@ -12,81 +12,8 @@
 
 <h2>#2. DB 구성</h2>
 
-> 프로젝트명 : Floatleft_Project_BBQ<br>
-> 작업명 : BBQ 웹자바 구현<br>
-> 메뉴 테이블명 : bbq_menu<br>
-> 고객센터 테이블명 : bbq_board<br>
-> 회원 테이블명 : bbq_member<br>
-> 주문 테이블명 : bbq_order<br>
-<br>
+> ![DB구조](https://github.com/WOONG-riginal/Team-Project/assets/136036366/59e1b9a1-37b7-4d35-8da5-613cfde8d021)
 
--- 메뉴 테이블명 : bbq_menu<br>
-create table bbq_menu(<br>
-    menuno number primary key,<br>
-    menu varchar2(100) not null,<br>
-    img varchar2(200) not null,<br>
-    price varchar2(50) not null,<br>
-    category varchar2(100) not null,<br>
-    info varchar2(2000) not null,<br>
-    allergy varchar2(200),<br>
-    nutri1 number,<br>
-    nutri2 number,<br>
-    nutri3 number,<br>
-    nutri4 number,<br>
-    nutri5 number,<br>
-    origin varchar2(100)<br>
-);<br><br>
-
--- 고객센터 테이블 : bbq_board<br>
-create table bbq_board(<br>
-    num number primary key,<br>
-    store varchar2(50) not null,<br>
-    title varchar2(100) not null,<br>
-    reg_date varchar2(30) not null,<br>
-    type varchar2(100) not null,<br>
-    writer varchar2(50) not null,<br>
-    contact varchar2(50) not null,<br>
-    content varchar2(100) not null,<br>
-    ref number,<br>
-    re_step number,<br>
-    re_level number,<br>
-    readcount number,<br>
-    writerid varchar2(50) not null<br>
-);<br>
--- 시퀀스 만들기<br>
-create sequence bbq_board_seq minvalue 1 maxvalue 9999 increment by 1;<br><br>
-
--- 회원 테이블 : bbq_member<br>
-create table bbq_member (<br>
-    id  varchar2(20) primary key,<br>
-    password varchar2(50) not null,<br>
-    name varchar2(50) not null,<br>
-    tel varchar2(50) not null,<br>
-    email varchar2(100) not null,<br>
-    point number default 1000,<br>
-    coupon number default 1,<br>
-    card number default 1,<br>
-    role varchar2(10) default 'B',<br>
-    address varchar2(200),<br>
-    mstore varchar2(200),<br>
-    gender varchar2(20),<br>
-    birth varchar2(20)<br>
-);<br><br>
-
--- 주문 테이블 : bbq_order<br>
-create table bbq_order (<br>
-    ordernum  number primary key,<br>
-    ordername varchar2(50) not null,<br>
-    ordercontact varchar2(50) not null,<br>
-    orderstore varchar2(200) not null,<br>
-    orderdate date not null,<br>
-    ordermenu varchar2(200) not null,<br>
-    orderprice number not null,<br>
-    qty number not null,<br>
-    delivery number not null,<br>
-    orderaddress varchar2(200) not null,<br>
-    orderid varchar2(50) not null<br>
-);<br><br>
 
 
 <h2>#3. 구성</h2>
