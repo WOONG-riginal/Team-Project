@@ -110,7 +110,7 @@ create table bbq_order (<br>
 
 <h2>#5. 소스코드</h2>
 
-https://github.com/WOONG-riginal/back-end/tree/a58fcd8a96b8c7d3af1bb861f71f6af38daf2baf/BBQ
+https://github.com/WOONG-riginal/back-end/tree/a58fcd8a96b8c7d3af1bb861f71f6af38daf2baf/BBQ/src/main/webapp
 
 <h2>#6. 프로젝트 시연</h2>
 
