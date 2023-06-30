@@ -12,7 +12,8 @@
 
 <h2>#2. DB 구성</h2>
 
-![DB구조](https://github.com/WOONG-riginal/Team-Project/assets/136036366/9e2cf13e-9e97-41f5-b7e6-173035e6af09)
+![DB구조](https://github.com/WOONG-riginal/Team-Project/assets/136036366/138909a1-57c6-4684-9a08-c0d298f418b3)
+
 
 
 
