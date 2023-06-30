@@ -114,17 +114,43 @@ https://github.com/WOONG-riginal/back-end/tree/a58fcd8a96b8c7d3af1bb861f71f6af38
 
 <h2>#6. 프로젝트 시연</h2>
 
-  <h3>A. 회원가입 및 온라인 주문</h3>
+  <h3>A. 페이지 소개</h3>
 
-  https://github.com/WOONG-riginal/test/assets/136036366/cf6fe9df-5a67-4847-a426-b7dfe39a67a3
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/cd8cdb58-fd81-4a16-aea6-44a241ac238a
 
-  <h3>B. 게시판 작성 및 회원정보 수정</h3>
+  1. 메인페이지 : 실시간 인기메뉴 슬라이드 및 이미지 슬라이드 구성
+  2. 온라인주문 및 고객센터 페이지는 로그인이 필요한 서비스
+  3. 서브페이지(메뉴소개) : DB에 입력된 정보를 카테고리 별로 출력
+  4. 콘텐츠페이지(메뉴상세정보) : 서브페이지에서 선택된 메뉴에 대한 DB에 입력된 정보를 출력
 
-  https://github.com/WOONG-riginal/test/assets/136036366/5aed3d6d-f2ee-49d1-8f9a-a098f0604397
 
-  <h3>C. 게시판 답변 확인하기</h3>
+  <h3>B. 매장찾기</h3>
 
-  https://github.com/WOONG-riginal/test/assets/136036366/dc451961-00cc-4e32-9c18-eefb2c5997bc
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/012977db-77c9-4ed8-9797-316887d43e6d
+
+  1. 전국 BBQ매장 조회
+  2. 키워드 검색 시 해당 매장 조회
+  3. 메인페이지에서 키워드 입력 가능
+  4. 매장 위치를 전용 마커로 표시
+  5. 마커 및 검색목록 클릭 시 해당 매장 정보 조회
+  
+
+  <h3>C. 회원가입</h3>
+
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/1fa21483-3adb-48c6-9ebd-c6de7e709813
+
+  1. 필수약관 동의 시에만 회원가입 가능
+  2. 아이디 및 비밀번호는 조건에 맞게 기입
+  3. 비밀번호 확인 시 동일한 비밀번호 입력
+  4. 추천매장 검색 후 클릭으로 입력
+  5. 주소지는 도로명 및 지번으로 검색, 입력 후 상세주소 추가기입 가능
+  6. 회원가입 완료 시 마케팅수신동의(선택시) 알림문구 출력
+  
+  https://github.com/WOONG-riginal/Team-Project/assets/136036366/9259736d-6ef4-451e-834a-2d4c3590d078
+
+  1. 아이디 중복 시 가입불가
+  2. 선택사항은 입력하지 않아도 회원가입 가능
+
 
   <h3>D. 서브 및 콘텐츠 메뉴</h3>
 
