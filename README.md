@@ -135,3 +135,8 @@ https://github.com/WOONG-riginal/Team-Project/assets/136036366/1e203c31-fb02-47a
 2. 회원목록 확인, 가입 시 입력하지 않은 항목은 미기입으로 표기
 3. 모든 주문내역 확인, 주문자 ID를 같이 표기해 동명이인의 경우 구분
 4. 모든 문의내역 확인 및 답변 등록
+
+
+<h2>#7. 오류 및 보완할 사항</h2>
+
+https://github.com/WOONG-riginal/back-end/blob/main/README.md
