@@ -32,7 +32,8 @@
 
 <h2>#4. Work-Flow</h2>
 
-![워크플로우](https://github.com/WOONG-riginal/Team-Project/assets/136036366/bfc6ba18-0ed0-4342-a5d6-71a06e568851)
+![workflow](https://github.com/WOONG-riginal/Team-Project/assets/136036366/6afc394c-8520-4651-a2eb-39a9a6f66a75)
+
 
 
 
